@@ -18,5 +18,5 @@ max_line_length = 120
 [*.json]
 max_line_length = undefined
 
-[package.json]
+[{package.json,.eslintrc}]
 indent_size = 2
