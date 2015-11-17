@@ -17,3 +17,6 @@ max_line_length = 120
 
 [*.json]
 max_line_length = undefined
+
+[package.json]
+indent_size = 2
