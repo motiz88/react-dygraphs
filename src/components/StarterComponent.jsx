@@ -1,13 +1,13 @@
 import React from 'react';
 
-export default class StarterComponent extends React.Component {
-    displayName = 'StarterComponent';
+export default class Dygraph extends React.Component {
+    displayName = 'Dygraph';
 
     constructor() {
         super();
     }
 
     render() {
-        return <div>StarterComponent</div>;
+        return <div>Dygraph</div>;
     }
 }

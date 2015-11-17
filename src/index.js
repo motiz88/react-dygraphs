@@ -1,4 +1,4 @@
-import StarterComponent from './components/StarterComponent';
+import Dygraph from './components/StarterComponent';
 
-export default StarterComponent;
-export {StarterComponent};
+export default Dygraph;
+export {Dygraph};

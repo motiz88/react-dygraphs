@@ -1,6 +1,6 @@
 import ReactDOM from 'react-dom';
-import {StarterComponent} from '../src';
+import {Dygraph} from '../src';
 
 var container = document.createElement('div');
 document.body.appendChild(container);
-ReactDOM.render(<StarterComponent />, container);
+ReactDOM.render(<Dygraph />, container);

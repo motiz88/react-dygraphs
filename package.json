@@ -1,5 +1,5 @@
 {
-  "name": "yet-another-react-component-starter",
+  "name": "react-dygraphs",
   "version": "0.0.1",
   "description": "",
   "main": "dist/index.js",
@@ -56,10 +56,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/motiz88/yet-another-react-component-starter.git"
+    "url": "https://github.com/motiz88/react-dygraphs.git"
   },
   "bugs": {
-    "url": "https://github.com/motiz88/yet-another-react-component-starter/issues",
+    "url": "https://github.com/motiz88/react-dygraphs/issues",
     "email": "motiz88@gmail.com"
   }
 }
