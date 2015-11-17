@@ -1,4 +1,4 @@
-import Dygraph from './components/StarterComponent';
+import Dygraph from './components/Dygraph';
 
 export default Dygraph;
 export {Dygraph};
