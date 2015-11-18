@@ -39,6 +39,6 @@ export default class Dygraph extends React.Component {
     }
 
     render() {
-        return <div ref="root"></div>;
+        return <div ref='root'></div>;
     }
 }
