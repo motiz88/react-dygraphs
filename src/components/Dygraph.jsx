@@ -1,33 +1,26 @@
 import React from 'react';
 import DygraphBase from 'dygraphs-commonjs';
+import {propTypes as dygraphPropTypes, spreadProps as spreadKnownProps} from './Dygraph/options';
 
 export default class Dygraph extends React.Component {
     displayName = 'Dygraph';
 
-    static propTypes = {
-        data: React.PropTypes.oneOfType([
-            React.PropTypes.string /* CSV or URL */,
-            React.PropTypes.arrayOf(React.PropTypes.oneOfType([
-                React.PropTypes.instanceOf(Date),
-                React.PropTypes.number
-            ])),
-            React.PropTypes.func
-        ]).isRequired
-    }
+    static propTypes = Object.assign({}, dygraphPropTypes);
 
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
     }
 
     componentDidMount() {
-        this._dygraph = new DygraphBase(this.refs.root, this.props.data);
+        const {known: initAttrs} = spreadKnownProps(this.props, true);
+        this._dygraph = new DygraphBase(this.refs.root, this.props.data, initAttrs);
+
     }
 
     componentWillUpdate(nextProps/*, nextState*/) {
         if (this._dygraph) {
-            this._dygraph.updateOptions({
-                data: nextProps.data
-            });
+            const {known: updateAttrs} = spreadKnownProps(nextProps, false);
+            this._dygraph.updateOptions(updateAttrs);
         }
     }
 
