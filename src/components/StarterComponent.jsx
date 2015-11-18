@@ -8,6 +8,6 @@ export default class StarterComponent extends React.Component {
     }
 
     render() {
-        return <div>StarterComponent</div>;
+        return <div>{'StarterComponent'}</div>;
     }
 }
