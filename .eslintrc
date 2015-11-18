@@ -9,6 +9,7 @@
   env:
     es6: true
   rules:
+    comma-dangle: 0
     react/display-name: 1
     react/forbid-prop-types: 1
     react/jsx-boolean-value: 1
