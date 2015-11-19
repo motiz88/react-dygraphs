@@ -10,10 +10,10 @@ describe('module entry point', function() {
     });
 });
 
-const testsContext = require.context('../src/components/', true, /index\.jsx?$/);
+const testsContext = require.context('./specs/', true, /\.jsx?$/);
 
 testsContext.keys().forEach(testsContext);
 
-const componentsContext = require.context('../src/components/', true, /index\.jsx?$/);
+const componentsContext = require.context('../src/components/', true, /\.jsx?$/);
 
 componentsContext.keys().forEach(componentsContext);
