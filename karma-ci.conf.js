@@ -1,10 +1,11 @@
+/* eslint-env node */
+
 var path = require('path');
 
 module.exports = function(config) {
     config.set({
         basePath: '',
-
-        frameworks: ['mocha', 'chai'],
+        frameworks: ['mocha', 'sinon-chai'],
         files: [
             './node_modules/phantomjs-polyfill/bind-polyfill.js',
             'test/index.js',
