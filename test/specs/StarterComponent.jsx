@@ -1,4 +1,4 @@
-import {StarterComponent} from '../src';
+import {StarterComponent} from '../../src';
 import React from 'react';
 import ReactTestUtils from 'react-addons-test-utils';
 
