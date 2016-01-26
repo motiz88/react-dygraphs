@@ -27,7 +27,7 @@ class InteractionModelProxy {
 export default class Dygraph extends React.Component {
     displayName = 'Dygraph';
 
-    static propTypes = Object.assign({}, dygraphPropTypes);
+    static propTypes = Object.assign({style: React.PropTypes.object}, dygraphPropTypes);
 
     constructor(props) {
         super(props);
@@ -61,6 +61,11 @@ export default class Dygraph extends React.Component {
     _interactionProxy = new InteractionModelProxy();
 
     render() {
-        return <div ref='root'></div>;
+        return (
+            <div
+                ref='root'
+                style={this.props.style}
+            />
+        );
     }
 }
