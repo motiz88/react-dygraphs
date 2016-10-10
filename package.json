@@ -45,7 +45,7 @@
     "karma-sinon-chai": "^1.1.0",
     "karma-sourcemap-loader": "^0.3.6",
     "karma-webpack": "^1.7.0",
-    "mocha": "^2.3.4",
+    "mocha": "^3.1.1",
     "phantomjs": "^2.1.7",
     "phantomjs-polyfill": "0.0.2",
     "react": "^15.1.0",
