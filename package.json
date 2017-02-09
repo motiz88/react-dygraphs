@@ -31,7 +31,7 @@
     "eslint": "^2.11.1",
     "eslint-plugin-react": "^5.1.1",
     "isparta-loader": "^2.0.0",
-    "istanbul-instrumenter-loader": "^0.2.0",
+    "istanbul-instrumenter-loader": "^2.0.0",
     "karma": "^1.1.0",
     "karma-chrome-launcher": "^1.0.1",
     "karma-coverage": "^1.0.0",
