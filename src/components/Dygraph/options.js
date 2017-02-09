@@ -23,7 +23,7 @@ const options = {
     connectSeparatedPoints: {type: p.boolean},
     customBars: {type: p.boolean},
     dataHandler: true,
-    dataWindow: true,
+    dateWindow: true,
     delimiter: {type: p.string},
     digitsAfterDecimal: {type: p.number},
     displayAnnotations: {type: p.boolean},
