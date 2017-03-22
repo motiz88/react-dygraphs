@@ -26,7 +26,7 @@
     "babel-preset-react": "^6.1.18",
     "babel-preset-stage-0": "^6.1.18",
     "chai": "^3.4.1",
-    "eclint": "^1.1.5",
+    "eclint": "^2.0.0",
     "editorconfig-tools": "^0.1.1",
     "eslint": "^2.11.1",
     "eslint-plugin-react": "^5.1.1",
