@@ -1,5 +1,5 @@
 {
-  "name": "react-dygraphs",
+  "name": "@tom-bancroft/react-dygraphs",
   "version": "0.0.1",
   "description": "",
   "main": "dist/index.js",
