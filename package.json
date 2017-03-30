@@ -1,5 +1,5 @@
 {
-  "name": "react-dygraphs",
+  "name": "@tom-bancroft/react-dygraphs",
   "version": "0.0.1",
   "description": "",
   "main": "dist/index.js",
@@ -57,11 +57,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/motiz88/react-dygraphs.git"
+    "url": "https://github.com/Jet-Set-Willy/react-dygraphs.git"
   },
   "bugs": {
-    "url": "https://github.com/motiz88/react-dygraphs/issues",
-    "email": "motiz88@gmail.com"
+    "url": "https://github.com/Jet-Set-Willy/react-dygraphs/issues",
+    "email": "bancroft_tom@hotmail.com"
   },
   "dependencies": {
     "dygraphs-commonjs": "^1.1.1"
